@@ -16,10 +16,10 @@ print(list4[0:])  #prints whole list
 print(list4[0:9:2]) #prints slots 0-9 skipping two
 
 #for iterations
-for element in list4:
+for element in list4: #prints each element in list4
     print(element)
 
-print('List4 lenght: ', len(list4))
+print('List4 lenght: ', len(list4)) #prints lists lenght
 
-for i in range(len(list4)):
-    print(i)
+for i in range(len(list4)): 
+    print(i) 
